@@ -1,0 +1,35 @@
+@media screen and (min-width: 581px) {
+	body {
+	    background-color: black;
+	}
+	  .bigscreen {
+	    display: block;
+	    position:absolute;
+		top:50%;
+		left:0;
+		width:100%;
+		height:100%;
+		text-align:center;
+  	}
+	.bigscreen img{
+		display:inline-block;
+		vertical-align:middle;
+	}
+	 .moblie {
+		display: none;
+	 }
+}
+@media screen and (max-width: 580px) {
+	body {
+	  	margin:0;
+	    padding:0;
+	    height:100%;
+	    background-color: #232323;
+	}
+	 .bigscreen {
+	    display: none;
+  	}
+	 .moblie {
+		display: block;
+	 }
+}

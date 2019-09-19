@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+@import 'mobile.css';
+
+body {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* header */
+.moblie_header{
+	position:fixed;
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid yellow;
+	color: yellow;
+}
+.moblie_header .header_menu_title{
+	font-size: 20px;
+    top: 0px;
+    left: 10px;
+    position: fixed;
+}
+.moblie_header .header_icon_group{
+	right: 20px;
+    position: fixed;
+    top: 15px;
+}
+.moblie_header .header_icon_group a{
+	margin-right: 5px;
+}
+.moblie_header .header_icon_group a i{
+	font-size: 25px; 
+	color: yellow;
+}
+
+/* body */
+.moblie_middle{
+	position:fixed;
+	top:60px;
+	bottom:60px;
+	width:100%;
+	min-height:250px;
+	color: yellow;
+}
+.middle_friendList{
+	display: inline-block;
+	width: 100%;
+    height: 40px;	
+}
+.middle_friendList .friendList_friend{
+	padding: 10px;	
+	font-size: 17px;
+	cursor: pointer;
+}
+.middle_friendList .friendList_friend:first-child{
+	
+}
+.middle_friendList .friendList_friend .friend_image{
+	width: auto;
+	max-height: 50px;
+	border-radius: 38%;
+    vertical-align: middle;
+}
+.middle_friendList .friendList_friend .friend_text{
+	display: inline-block;
+	width: 85%;
+}
+.middle_friendList .friendList_friend .friend_text .friend_statusMessage{
+	float: right;
+}
+
+/* footer */
+.moblie_footer{
+	position:fixed;
+	width:100%;
+	height:60px;
+	border-top: 1px solid yellow;
+	bottom:0;
+
+}
+.footer_menu{width: 100%;}
+.footer_menu .footer_menu_item{display: inline-block; width: 20%; margin: 10px; height: 58px; text-align: center; cursor: pointer;}
+.footer_menu .footer_menu_item a i{font-size: 25px; color: yellow;}
+
+
+/* step02 */
+.friend_messageDate{
+	float: right;
+	color: white;
+	font-size: 12px;
+
+}
+.friend_messageName{
+	display: block;
+}
+.friend_meesageContents{
+	color: white;
+	font-size: 14px;
+}
+.middle_friendList .friendList_friend:hover{
+	background-color: #636363;
+	color: black;
+}
