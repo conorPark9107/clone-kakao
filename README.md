@@ -1,3 +1,3 @@
-# clone-kakao
-<conorpark9107.github.io/clone-kakao/>
+# clone-kakao (HTML, CSS)
+<https://conorpark9107.github.io/clone-kakao/>
 
